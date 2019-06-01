@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:jobber/data/data_loader.dart';
+import 'package:jobber/data/jobs.dart';
+import 'package:jobber/widgets/common_widgets.dart';
+import 'package:provider/provider.dart';
 
 import 'home_page.dart';
 
@@ -39,13 +43,15 @@ class _LoginPageState extends State<LoginPage> {
         ),
         Expanded(
             child: TextFormField(
-          obscureText: obscureText,
-          enabled: enabled,
-          decoration: InputDecoration(
-              border: OutlineInputBorder(), hintText: hint, labelText: hint),
-          controller: controller,
-          keyboardType: type,
-        )),
+              obscureText: obscureText,
+              enabled: enabled,
+              decoration: InputDecoration(
+                  border: OutlineInputBorder(),
+                  hintText: hint,
+                  labelText: hint),
+              controller: controller,
+              keyboardType: type,
+            )),
         SizedBox(
           width: 16.0,
         )
@@ -55,9 +61,6 @@ class _LoginPageState extends State<LoginPage> {
 
   _loginAction() async {
     try {
-//      final FirebaseAuth _auth = FirebaseAuth.instance;
-//      FirebaseUser _user = await _auth.signInWithEmailAndPassword(
-//          email: emailController.text, password: passwordController.text);
       Navigator.popAndPushNamed(context, MyHomePage.routeName);
     } catch (e) {
       print(e);

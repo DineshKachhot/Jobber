@@ -27,9 +27,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Provider<BaseDataLoader>(
-        dispose: (_, value) => value.dispose(),
         builder: (_) => data,
-        child: SplashPage(),
+        child: LoginPage(),
       ),
     );
   }
