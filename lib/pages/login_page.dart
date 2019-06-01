@@ -43,15 +43,13 @@ class _LoginPageState extends State<LoginPage> {
         ),
         Expanded(
             child: TextFormField(
-              obscureText: obscureText,
-              enabled: enabled,
-              decoration: InputDecoration(
-                  border: OutlineInputBorder(),
-                  hintText: hint,
-                  labelText: hint),
-              controller: controller,
-              keyboardType: type,
-            )),
+          obscureText: obscureText,
+          enabled: enabled,
+          decoration: InputDecoration(
+              border: OutlineInputBorder(), hintText: hint, labelText: hint),
+          controller: controller,
+          keyboardType: type,
+        )),
         SizedBox(
           width: 16.0,
         )
@@ -71,6 +69,10 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
+    BaseDataLoader model = Provider.of(context);
+    Job job = model?.allJobs?.first;
+    print("job - ${job.title}");
+
     return Scaffold(
       key: scaffoldKey,
       body: Center(
@@ -78,6 +80,9 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              ...model.allJobs.map((job) {
+                return jobListItemWidget(job);
+              }),
               SizedBox(height: 92.0),
               _buildFormFieldRow(Icons.email, 'Email', emailController,
                   TextInputType.emailAddress),

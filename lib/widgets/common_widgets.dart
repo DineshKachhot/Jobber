@@ -14,35 +14,42 @@ Widget chipWidget(Color bgColor, String label) {
 }
 
 Widget jobListItemWidget(Job job) {
-  return Container(
-    padding: EdgeInsets.all(10),
-    child: Row(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: <Widget>[
-        Expanded(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Text(
-                job.org.name,
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-              ),
-              Text(
-                "${job.title} - ${job.location}",
-                style: TextStyle(fontSize: 14),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              ...job.skills.map((skill) {
-                return chipWidget(HexColor(skill.color), skill.name);
-              }).toList(),
-            ],
+  return Card(
+    child: Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Expanded(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  job.org.name,
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                ),
+                Text(
+                  "${job.title} - ${job.location}",
+                  style: TextStyle(fontSize: 14),
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  children: job.skills.map((skill) {
+                    return Padding(
+                      padding: const EdgeInsets.only(right: 5),
+                      child: chipWidget(HexColor(skill.color), skill.name),
+                    );
+                  }).toList(),
+                )
+              ],
+            ),
           ),
-        ),
-        roundCircleIconWidget(50, job.org.logo)
-      ],
+          roundCircleIconWidget(50, job.org.logo)
+        ],
+      ),
     ),
   );
 }
