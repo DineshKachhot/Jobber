@@ -1,12 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-String getValueOrEmpty(doc, key) {
-  return doc != null ? doc[key] != null ? doc[key] : "" : "";
-}
-
-bool getValueOrFalse(doc, key) {
-  return doc[key] != null ? doc[key] : false;
-}
+import '../utils.dart';
 
 class Skill {
   static const NAME = 'name';
@@ -23,5 +17,12 @@ class Skill {
     this.status = getValueOrEmpty(document, STATUS);
     this.type = getValueOrEmpty(document, TYPE);
     this.color = getValueOrEmpty(document, COLOR);
+  }
+
+  Skill.fromMap(Map document) {
+    this.name = document[NAME];
+    this.status = document[STATUS];
+    this.type = document[TYPE];
+    this.color = document[COLOR];
   }
 }
