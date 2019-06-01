@@ -15,10 +15,13 @@ class Skill {
   String status;
   static const TYPE = 'type';
   String type;
+  static const COLOR = 'color';
+  String color;
 
   Skill.fromDocument(DocumentSnapshot document) {
     this.name = getValueOrEmpty(document, NAME);
     this.status = getValueOrEmpty(document, STATUS);
     this.type = getValueOrEmpty(document, TYPE);
+    this.color = getValueOrEmpty(document, COLOR);
   }
 }
