@@ -4,9 +4,7 @@ import 'package:jobber/data/data_loader.dart';
 class MyHomePage extends StatefulWidget {
   static const routeName = "/home";
 
-  BaseDataLoader data;
-
-  MyHomePage({Key key, this.title, this.data}) : super(key: key);
+  MyHomePage({Key key, this.title}) : super(key: key);
 
   final String title;
 
@@ -25,7 +23,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    print("data" + widget.data.allSkill.length.toString());
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
