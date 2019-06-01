@@ -1,0 +1,86 @@
+{
+  "__collections__": {
+    "jobs": {
+      "jwd6gbzbp4k4kdmlpfk": {
+        "type": "Full-time",
+        "location": "Paris",
+        "title": "Frontend Engineer",
+        "organization": {
+          "id": "",
+          "logo": "https://venturebeat.com/wp-content/uploads/2014/07/airbnb-logo-red.jpg?fit=2560%2C1440&strip=all",
+          "name": "Airbnb"
+        },
+        "qualification": "<p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><p><br></p><ul><li>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </li><li>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing </li><li>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</li></ul><p><br></p><p><br></p>",
+        "description": "<p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p><br></p>",
+        "skills": {
+          "jwd51vojzjag8kqcbv": {
+            "level": 3,
+            "name": "Android",
+            "color": "#CCCCCC",
+            "type": "platform"
+          },
+          "jwd52pqw9ll4e52rfew": {
+            "name": "iOS",
+            "color": "#CCCCCC",
+            "type": "platform",
+            "level": 5
+          }
+        },
+        "status": "published",
+        "level": "Associate",
+        "__collections__": {}
+      }
+    },
+    "skills": {
+      "jwd51vojzjag8kqcbv": {
+        "type": "platform",
+        "status": "published",
+        "name": "Android",
+        "color": "#CCCCCC",
+        "__collections__": {}
+      },
+      "jwd52pqw9ll4e52rfew": {
+        "name": "iOS",
+        "color": "#CCCCCC",
+        "type": "platform",
+        "status": "published",
+        "__collections__": {}
+      },
+      "jwd52x0vpizdduu7nn4": {
+        "name": "Flutter",
+        "color": "#CCCCCC",
+        "type": "platform",
+        "status": "published",
+        "__collections__": {}
+      },
+      "jwd53f11bp0sp4mt27k": {
+        "type": "language",
+        "status": "published",
+        "name": "Java",
+        "color": "#CCCCCC",
+        "__collections__": {}
+      },
+      "jwd542g1nqyv30misds": {
+        "status": "published",
+        "name": "Kotlin",
+        "color": "#CCCCCC",
+        "type": "language",
+        "__collections__": {}
+      },
+      "jwd54bgh5pqr1ren1w4": {
+        "status": "published",
+        "name": "Objective C",
+        "color": "#CCCCCC",
+        "type": "language",
+        "__collections__": {}
+      },
+      "jwd54kxspqr8sffjk0g": {
+        "type": "language",
+        "status": "published",
+        "name": "Swift",
+        "color": "#CCCCCC",
+        "__collections__": {}
+      }
+    }
+  }
+}

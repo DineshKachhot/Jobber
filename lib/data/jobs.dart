@@ -5,7 +5,7 @@ import '../utils.dart';
 import 'organization.dart';
 
 class Job {
-  static const DESC = 'desctiption';
+  static const DESC = 'description';
   String desc;
 
   static const LEVEL = 'level';
@@ -19,7 +19,7 @@ class Job {
 
   static const ORGANIZATION = 'organization';
   Map<dynamic, dynamic> organization;
-  Organization org;
+  Organization org = Organization();
 
   static const TITLE = 'title';
   String title;
@@ -33,6 +33,7 @@ class Job {
   static const SKILLS = 'skills';
   List<Skill> skills = List();
 
+  Job();
 
   Job.fromDocument(DocumentSnapshot document) {
     this.qualification = getValueOrEmpty(document, QUALIFICATION);

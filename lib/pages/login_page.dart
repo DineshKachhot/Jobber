@@ -80,9 +80,6 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              ...model.allJobs.map((job) {
-                return jobListItemWidget(job);
-              }),
               SizedBox(height: 92.0),
               _buildFormFieldRow(Icons.email, 'Email', emailController,
                   TextInputType.emailAddress),

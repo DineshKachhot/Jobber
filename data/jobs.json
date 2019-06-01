@@ -1,0 +1,137 @@
+{
+    "google-fullstack-paris": {
+        "type": "Full-time",
+        "location": "Paris",
+        "title": "Fullstack Developer",
+        "organization": {
+            "id": "google",
+            "logo": "https://blog.hubspot.com/hubfs/image8-2.jpg",
+            "name": "Google"
+        },
+        "qualification": "<p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><p><br></p><ul><li>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </li><li>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing </li><li>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</li></ul><p><br></p><p><br></p>",
+        "description": "<p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p><br></p>",
+        "skills": {
+            "javascript": {
+                "level": 3,
+                "type": "language",
+                "status": "published",
+                "name": "JavaScript",
+                "color": "#FFDEDC"
+            },
+            "react": {
+                "level": 3,
+                "type": "language",
+                "status": "published",
+                "name": "React",
+                "color": "#DFEEFF"
+            },
+            "java": {
+                "level": 3,
+                "type": "language",
+                "status": "published",
+                "name": "Java",
+                "color": "#DFEEFF"
+            }
+        },
+        "status": "published",
+        "level": "Associate",
+        "__collections__": {}
+    },
+    "airbanb-fulltime-backend": {
+        "type": "Full-time",
+        "location": "Paris",
+        "title": "Back-end Engineer",
+        "organization": {
+            "id": "airbnb",
+            "logo": "https://venturebeat.com/wp-content/uploads/2014/07/airbnb-logo-red.jpg?fit=2560%2C1440&strip=all",
+            "name": "Airbnb"
+        },
+        "qualification": "We are now looking for Back-end Software Engineers to join the team to help build a strong and fast feedback loop to adapt our product according to local needs. The team will improve the site/app speed and experience for Chinese users, localize the existing product to deeply integrate with local norms (e.g., allow WeChat sign in / sharing, payment with Alipay, etc.) and build new products that culturally make sense to Chinese users.",
+        "description": "A‌i‌r‌b‌n‌b‌, ‌ ‌I‌n‌c‌.‌, is an American online marketplace and hospitality service brokerage company based in San Francisco, California, United States. Members can use the service to arrange or offer lodging, primarily homestays, or tourism experiences.",
+        "skills": {
+            "jwd51vojzjag8kqcbv": {
+                "level": 3,
+                "name": "Android",
+                "color": "#CCCCCC",
+                "type": "platform"
+            },
+            "jwd52pqw9ll4e52rfew": {
+                "name": "iOS",
+                "color": "#CCCCCC",
+                "type": "platform",
+                "level": 5
+            }
+        },
+        "status": "published",
+        "level": "Associate",
+        "__collections__": {}
+    },
+    "google-fullstack-paris-2": {
+        "type": "Full-time",
+        "location": "Paris",
+        "title": "Fullstack Developer",
+        "organization": {
+            "id": "google",
+            "logo": "https://blog.hubspot.com/hubfs/image8-2.jpg",
+            "name": "Google"
+        },
+        "qualification": "<p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p><p><br></p><ul><li>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </li><li>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing </li><li>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</li></ul><p><br></p><p><br></p>",
+        "description": "<p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p><br></p>",
+        "skills": {
+            "javascript": {
+                "level": 3,
+                "type": "language",
+                "status": "published",
+                "name": "JavaScript",
+                "color": "#FFDEDC"
+            },
+            "react": {
+                "level": 3,
+                "type": "language",
+                "status": "published",
+                "name": "React",
+                "color": "#DFEEFF"
+            },
+            "java": {
+                "level": 3,
+                "type": "language",
+                "status": "published",
+                "name": "Java",
+                "color": "#DFEEFF"
+            }
+        },
+        "status": "published",
+        "level": "Associate",
+        "__collections__": {}
+    },
+    "airbanb-fulltime-backend-2": {
+        "type": "Full-time",
+        "location": "Paris",
+        "title": "Back-end Engineer",
+        "organization": {
+            "id": "airbnb",
+            "logo": "https://venturebeat.com/wp-content/uploads/2014/07/airbnb-logo-red.jpg?fit=2560%2C1440&strip=all",
+            "name": "Airbnb"
+        },
+        "qualification": "We are now looking for Back-end Software Engineers to join the team to help build a strong and fast feedback loop to adapt our product according to local needs. The team will improve the site/app speed and experience for Chinese users, localize the existing product to deeply integrate with local norms (e.g., allow WeChat sign in / sharing, payment with Alipay, etc.) and build new products that culturally make sense to Chinese users.",
+        "description": "A‌i‌r‌b‌n‌b‌, ‌ ‌I‌n‌c‌.‌, is an American online marketplace and hospitality service brokerage company based in San Francisco, California, United States. Members can use the service to arrange or offer lodging, primarily homestays, or tourism experiences.",
+        "skills": {
+            "jwd51vojzjag8kqcbv": {
+                "level": 3,
+                "name": "Android",
+                "color": "#CCCCCC",
+                "type": "platform"
+            },
+            "jwd52pqw9ll4e52rfew": {
+                "name": "iOS",
+                "color": "#CCCCCC",
+                "type": "platform",
+                "level": 5
+            }
+        },
+        "status": "published",
+        "level": "Associate",
+        "__collections__": {}
+    }
+
+}

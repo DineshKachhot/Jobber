@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:jobber/pages/home_page.dart';
+import 'package:jobber/pages/job_details.dart';
+import 'package:jobber/pages/job_list.dart';
 import 'package:jobber/pages/login_page.dart';
 import 'package:jobber/pages/splash.dart';
 import 'package:provider/provider.dart';
@@ -28,7 +30,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Provider<BaseDataLoader>(
         builder: (_) => data,
-        child: LoginPage(),
+        child: JobList(),
       ),
     );
   }

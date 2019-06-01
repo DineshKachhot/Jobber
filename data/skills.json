@@ -1,0 +1,81 @@
+{
+    "java": {
+        "type": "language",
+        "status": "published",
+        "name": "Java",
+        "color": "#DDD2FE"
+    },
+    "vue": {
+        "type": "language",
+        "status": "published",
+        "name": "Vue.js",
+        "color": "#CEFFBE"
+    },
+    "spring": {
+        "type": "language",
+        "status": "published",
+        "name": "Spring",
+        "color": "#DFF4FF"
+    },
+    "javascript": {
+        "type": "language",
+        "status": "published",
+        "name": "JavaScript",
+        "color": "#FFDEDC"
+    },
+    "react": {
+        "type": "language",
+        "status": "published",
+        "name": "React",
+        "color": "#DFEEFF"
+    },
+    "rest": {
+        "type": "language",
+        "status": "published",
+        "name": "REST",
+        "color": "#FFF3BD"
+    },
+    "elasticsearch": {
+        "type": "language",
+        "status": "published",
+        "name": "Elasticsearch",
+        "color": "#FED3D1"
+    },
+    "android": {
+        "status": "published",
+        "name": "Android",
+        "color": "#DFF4FF",
+        "type": "platform"
+    },
+    "ios": {
+        "status": "published",
+        "name": "iOS",
+        "color": "#CEFFBE",
+        "type": "platform"
+    },
+    "flutter": {
+        "name": "Flutter",
+        "color": "#CCCCCC",
+        "type": "platform",
+        "status": "published",
+        "__collections__": {}
+    },
+    "kotlin": {
+        "type": "language",
+        "status": "published",
+        "name": "Kotlin",
+        "color": "#CCCCCC"
+    },
+    "objectivec": {
+        "status": "published",
+        "name": "Objective C",
+        "color": "#CCCCCC",
+        "type": "language"
+    },
+    "swift": {
+        "type": "language",
+        "status": "published",
+        "name": "Swift",
+        "color": "#CCCCCC"
+    }
+}

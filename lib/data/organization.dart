@@ -8,9 +8,13 @@ class Organization {
   static const ID = 'id';
   String id;
   static const LOGO = 'logo';
-  String logo;
+  String logo = "";
   static const NAME = 'name';
   String name;
+
+  Organization(){
+    
+  }
 
   Organization.fromDocument(DocumentSnapshot document) {
     this.id = getValueOrEmpty(document, ID);
